@@ -1,0 +1,1 @@
+this is my redesigned website using my newly acquired skills in React. enjoy!
