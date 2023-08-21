@@ -1,1 +1,1 @@
-this is my redesigned website using my newly acquired skills in React. enjoy!
+checkout my [redesigned website](https://johnrey.vercel.app/) using my newly acquired skills in React. enjoy!
