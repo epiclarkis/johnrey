@@ -1,0 +1,158 @@
+@import url('bootstrap/dist/css/bootstrap.css');
+@import url('https://fonts.googleapis.com/css2?family=Magra&family=Nanum+Pen+Script&display=swap');
+
+html {
+    font-size: 62.5%;
+    height: 100vh;
+  }
+
+body {
+    font-family: "Magra", Helvetica, sans-serif;
+    background-color: #101010;
+    padding: 7% 10% 7% 0;
+    background-image: url('../src/assets/bg.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo {
+    width: 150px;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+
+    .logo-text {
+        color: #FFFFFF;
+        text-align: end;
+        font-size: 3rem;
+    }
+
+    .logo-link {
+        text-decoration: none;
+    }
+
+.hero {
+    color: #FFFFFF;
+    text-align: end;
+}
+
+    .banner {
+        font-family: "Magra", Helvetica, sans-serif;
+        font-size: 10rem;
+        margin-bottom: 3%;
+    }
+
+        .highlight {
+            color: #62D4F8;
+        }
+    
+    .intro {
+        font-size: 4rem;
+        line-height: 1.2;
+        margin-bottom: 3%;
+    }
+
+.main-nav {
+    text-align: end;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+}
+
+    .nav-item {
+        font-size: 4rem;
+        margin-left: 2rem;
+        text-decoration: none;
+        color: #555555;
+    }
+
+    .nav-item:hover {
+        color: #FFFFFF;
+    }
+
+.timeline {
+    display: flex;
+    justify-content: flex-end;
+}
+
+    .timeline h1 {
+        margin-left: 3rem;
+        font-size: 3rem;
+        color: #555555;
+    }
+
+        .timeline h1:hover {
+            color: #FFFFFF;
+            cursor: pointer;
+        }
+
+        .active {
+            color: #FFFFFF;
+        }
+
+.job,
+.portfolio,
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+    .job-logo,
+    .portfolio-preview {
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    .job-title h1,
+    .job-company h1,
+    .job-type h1,
+    .job-details p,
+    .portfolio-title,
+    .portfolio-details,
+    .portfolio-tags {
+        color: #555555;
+        font-size: 3rem;
+    }
+
+    .job-title h1,
+    .portfolio-title h1 {
+        font-weight: bold;
+        font-size: 4rem;
+    }
+
+    .job-details,
+    .portfolio-details {
+        margin-top: 3rem;
+        text-align: end;
+    }
+
+    h1.active {
+        color: #FFFFFF;
+    }
+
+    h1.inactive {
+        color: #555555;
+        cursor: pointer;
+    }
+
+    .preview-link {
+        text-decoration: none;
+    }
+
+    .preview-link:hover {
+        opacity: 0.5;
+    }
+
+.about-me {
+    color: #555555;
+    text-align: end;
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+    .about-me a {
+        color: #62D4F8;
+        text-decoration: none;
+    }
